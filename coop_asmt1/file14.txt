@@ -1,0 +1,5 @@
+file
+has
+less
+than
+10
