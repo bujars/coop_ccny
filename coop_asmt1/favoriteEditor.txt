@@ -1,0 +1,31 @@
+My favorite Editors (IDEs)
+
+I like Vim because it’s something that I am familiar with using. 
+Vim is something that I have used thus far in all of my CS classes, 
+so getting to use it more and more keeps allowing me to use helpful tricks. 
+I also like Vim because its pre-downloaded onto my system and 
+is accessible via different systems, such as OS (my laptop), 
+and Linux (what I use for my classes).
+
+
+Another IDE that I like is Visual Studio Code.
+I like visual studio code because of the cleanness of it, 
+and the easily accessible debugger. 
+In my python class, I really appreciated the debugger 
+whenever I missed a semicolon, or my variable was misspelled, 
+it was easy to find the error and solve it.
+Another appreciation that I have for visual studio code 
+is the different features that can be installed to help. 
+I have found various tools, such as unique indentation highlighting 
+to help when nesting loops and functions. 
+Lastly, I have a high appreciation for Visual Studio Code because 
+it is easy to utilize with different programming languages 
+from HTML, to Javascript, to C++. 
+
+
+
+
+
+
+
+
