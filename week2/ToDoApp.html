@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ToDoApp</title>
+    </head>
+
+    <body>
+        <h1>Simple ToDo</h1>
+        <input type="text" id="inputText" size="50">
+        <input type="button" id="addButton" value="Add" size="50">
+        <ul id="list"></ul>
+        
+        <script>
+        function init(){ //this function will be called by the window.
+            let button = document.getElementById("addButton"); //document means let the javascript look at what code is on the document
+            //getElemebtById, just takes the part of the code with that id
+            button.onclick = handleButtonClick; //on click is a js function that tells the code what to do when that specific id is clicked.
+            //handleButtonClick is a function that we write that tells this function what to do
+        }
+
+        function handleButtonClick(){
+            let textInput = document.getElementById("inputText"); //get the input text
+            let itemName = textInput.value; //store the value of what is inputed
+            if(itemName === ""){ //if its empty, halt the site. alert user
+                alert("Can't be blank. Enter something.")
+            }else{ 
+                let li = document.createElement('li'); //create a new list item
+                li.innerHTML = itemName; //place the text 
+                let ul = document.getElementById('list');
+                ul.appendChild(li); //for the list, add the item to it.
+            }
+
+        }
+        window.onload = init; //when the window loads, call init function
+
+
+        </script>
+
+
+    </body>
+</html>

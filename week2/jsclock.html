@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<hml lang="en">
+    <head>
+
+    </head>
+    <body>
+        <h1>This is a Javascript Clock</h1>
+        <p id="jsclock"></p>
+        <script>
+            let myVar = setInterval(()=>{myTimer()}, 1000);
+            function myTimer(){
+                let d = new Date();
+                let t = d.toLocaleTimeString();
+                document.getElementById("jsclock").innerHTML=t;
+            };
+            window.onload = myVar;
+        </script>
+    </body>
+</hml>
